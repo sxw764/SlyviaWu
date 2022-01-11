@@ -1,0 +1,22 @@
+table {
+  width: 700px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  margin: 0 auto;
+  /* border-right: 2px solid black;
+  border-bottom: 2px solid black; */
+}
+th,
+td {
+  padding: 10px 10px 10px 10px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+th {
+  text-transform: uppercase;
+  background-color: darkgrey;
+}
+tr:hover {
+  color: red;
+}
